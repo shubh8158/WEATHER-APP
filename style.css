@@ -1,0 +1,104 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    background-color: rgb(60, 55, 55);
+}
+.card{
+    width: 350px;
+    height: 500px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    margin:50px auto;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.search{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+input{
+    height: 30px;
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 15px ;
+    margin-left: 20px;
+    border: none;
+}
+.glass{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 25px;
+    background-color: white;
+}
+.glass button{
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.glass i{
+    padding-top: 6px;
+}
+
+.main img{
+    width: 150px;
+}
+.main h1{
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.main h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -5px;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+.col{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col p{
+    padding-left: 10px;
+    line-height: 2px;
+    
+    font-weight: 400;
+}
+.col img{
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+}
+.humidity,.wind{
+    font-size: 20px;
+    font-weight: 500;
+}
+.main{
+    display: none;
+}
+.error{
+    /* text-align: center; */
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    padding-right:50px ;
+    display: none;
+}
